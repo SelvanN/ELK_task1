@@ -434,17 +434,18 @@ span {
     }
 
     .tools_screen_image{
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         margin-bottom: 200px;
         margin-left: -330px;
     }
 
     .tools_pattern{
-        margin-top: 120px;
+        margin-top: 180px;
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
+        margin-left: 80px;
     }
 
     .service_education{
