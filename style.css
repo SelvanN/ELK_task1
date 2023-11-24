@@ -350,7 +350,7 @@ span {
         align-items: center;
         width: -100%;
         position: fixed;
-        right: 30px;
+        right: 70px;
         z-index: 1;
 
     }
@@ -397,7 +397,7 @@ span {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 120vh;
+        height: 95vh;
     }
 
     .left_screen_box,
@@ -408,51 +408,77 @@ span {
     .right_screen img {
         width: 300px;
         height: 250px;
-        margin: 50px 0 100px 0;
+        margin: 50px 0 100px -30px;
     }
 
     .left_screen {
         width: 100%;
-        margin: 50px 0 50px 0;
+        margin: 70px 0 30px 0;
     }
 
-    .tools_screen{
+    .tools_screen {
         display: flex;
         flex-direction: column;
     }
 
-    .tools_screen_content{
+    .tools_screen_content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .txt_content{
+    .txt_content {
         flex-wrap: wrap;
-        margin: 20px 0 -80px 0 ;
+        margin: 20px 0 -80px 0;
 
     }
 
-    .tools_screen_image{
+    .tools_screen_image {
         width: 20px;
         height: 20px;
-        margin-bottom: 200px;
-        margin-left: -330px;
+        margin-bottom: 100px;
+        margin-left: -280px;
     }
 
-    .tools_pattern{
+    .tools_pattern {
         margin-top: 180px;
         flex-wrap: wrap;
+        position: relative;
+        margin-left: 70px;
+      
+    }
+
+    .service_education {
+        flex-wrap: wrap;
+        font-size: 16px;
+        width: 90%;
+
+    }
+
+    .service_subheading {
+        font-size: 18px;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 90%;
         align-items: center;
         text-align: center;
-        margin-left: 80px;
+        margin-top: 10px;
     }
 
-    .service_education{
-        flex-wrap:wrap;
+    .edu_img_txt{
+        font-size: 18px;
+    }
+    .edu_subheading{
+        font-size: 16px;
+    }
+    
+    .edu_lists {
+        font-size: 14px;
     }
 
-    .PhD, .Master, .Research{
+    .PhD,
+    .Master,
+    .Research {
         flex-wrap: wrap;
 
     }
